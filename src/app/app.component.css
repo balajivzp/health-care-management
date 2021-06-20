@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+.app {
+  margin: 0 auto;
+  position: relative;
+  font-family: arial, sans-serif;
+}
+
+
+app-footer {
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  background: #000;
+  width: 100%;
+}
+main {
+  heigth: calc(100%-120px);
+  overflow: auto;
+  margin: 65px 0 60px 0;
+}
